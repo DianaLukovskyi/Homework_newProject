@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoky" verbose="1">
+    <test name="Smoky">
+        <classes>
+            <class name="tests.DragAndDropTest"/>
+            <class name="tests.BrokenTest"/>
+            <class name="tests.FileUploadTest"/>
+        </classes>
+    </test>
+
+</suite>
